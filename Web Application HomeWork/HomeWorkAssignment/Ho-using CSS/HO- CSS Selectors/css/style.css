@@ -1,0 +1,12 @@
+p{
+    font-style:italic;
+}
+article p{
+    font-size: x-small;
+}
+article > section > p {
+    color: blue;
+}
+article > section > p:last-child {
+        font-weight: bold;
+}
